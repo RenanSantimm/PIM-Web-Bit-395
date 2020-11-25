@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>Ethereum</title>
+
+    </head>
+
+    <body background="C:\Users\xXRoc\Desktop\PIM IV\Plano de Fundo/Plano de Fundo.jpeg">
+        <h1>Ethereum</h1>
+
+            <label for="idNome">Nome:</label>
+            <input type="text" id="idNome" name="nominho" placeholder="Nome Completo"
+                   required oninvalid="this.setCustomValidity('Nome deve ser preenchido')"/>
+            
+            <label>CPF:</label>
+            <input type="CPF" id="idCPF" name="RG/CPF" required placeholder="Ex: 123.456.789-00"
+                   required oninvalid="this.setCustomValidity('CPF deve ser preenchido')" />
+            
+            
+            <label>Data Nascimento:</label>
+            <input type="date" id="idDate" name="date" required />
+
+            <br />
+            <label for="idCidade">Cidade:</label>
+            <input type="text" id="idCidade" name="cidade" placeholder="Ex: Ribeirão Preto"
+                   required oninvalid="this.setCustomValidity('Cidade deve ser preenchido')" />
+
+            <label for="idEstado">Estado:</label>
+            <input type="text" id="idEstado" name="estado" size="2" maxlength="2" placeholder="Ex: SP"
+                   required oninvalid="this.setCustomValidity('Estado deve ser preenchido')" />
+            <br />
+
+            <label>Email:</label>
+            <input type="email" id="idEmail" name="email" required placeholder="Ex: Ethereum@gmail.com"
+                   required oninvalid="this.setCustomValidity('Email deve ser preenchido')" />
+            <br />
+
+
+            <br />
+            <fieldset>
+                <legend>Valor Do Numero da Sorte</legend>
+
+                <input type="checkbox" name="cursos" value="1" />$50
+                <input type="checkbox" name="cursos" value="2" />$100
+                <input type="checkbox" name="cursos" value="3" />$150
+                <input type="checkbox" name="cursos" value="44" />$200
+                <input type="checkbox" name="cursos" value="87" />Outros
+                <input type="number" id="idNumber" name="senha" placeholder="Ex: $500"
+                 required oninvalid="this.setCustomValidity('Valor deve ser preenchido')" />
+            </fieldset>
+            <br>
+
+            <align="right">
+         <form action="C:\Users\xXRoc\Desktop\PIM IV\index.html" method="get">
+         <button type="submit" class="btn btn-primary">Cancelar</button>
+         <button type="submit" onclick="exibirMensagem()">Comprar</button>
+
+        </form>
+
+        <!-- Import das funções arquivo js-->
+        <script src="C:\Users\xXRoc\Desktop\PIM IV\JS\js4/script.js"></script>
+    </body>
+</html>

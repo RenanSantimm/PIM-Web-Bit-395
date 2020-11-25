@@ -1,0 +1,27 @@
+Alterar os codigos de referencia Java Script de acordo onde a pasta PIM IV estiver armazenada no PC.
+
+Exemplo: <script src="C:\Users\xXRoc\Desktop\PIM IV\JS\js1/script.js"></script>
+
+Arquivos a modificar: 
+
+-Bitcoin Cash.html
+-Bitcoin.html
+-Dogecoin.html
+-Ethereum.html
+-Litecoin.html
+-Saque.html
+-Deposite.html
+
+E para aparecer os plano de fundo no modificar o codigo de acordo onde a pasta PIM IV estiver armazenada no PC.
+
+Exemplo: <body background="C:\Users\xXRoc\Desktop\PIM IV\Plano de Fundo/Plano de Fundo.jpeg">
+
+Arquivos a modificar: 
+
+-Bitcoin Cash.html
+-Bitcoin.html
+-Dogecoin.html
+-Ethereum.html
+-Litecoin.html
+-Saque.html
+-Deposite.html
